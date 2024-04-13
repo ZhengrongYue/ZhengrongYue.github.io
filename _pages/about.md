@@ -13,7 +13,7 @@ Research Direction
 ======
 - Video Generation and Understanding
 - Multimodal Large Models
-- Artificial Intelligence and Graphics Computing (AIGC)
+- Artificial Intelligence Generative Component (AIGC)
 
 Specific work can be found in: [Publications](https://yuezhengrong.github.io/publications/).
 
