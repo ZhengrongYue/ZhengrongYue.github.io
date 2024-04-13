@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Zhengrong Yue is now a first year PhD student at Shanghai Jiao Tong University and Shanghai AI Lab. He received his Bachelor of Engineering degree from China University of Mining and Technology (Beijing). His research interests are video generation and understanding, mainly focusing on multimodal large model and AIGC. He used to work as an algorithm intern in the Natural Language Understanding (NLU) Lab at Samsung R&D Institute China - Beijing (SRC-B). He was awarded the National Scholarship, the Beijing Three Good Students, the Special Scholarship, and the Sun Koshizaki Scholarship. He has received [reports from People's Daily]([http://paper.people.com.cn/rmrb/html/2023-05/04/nw.D110000renmrb_20230504_1-13.htm](http://edu.people.com.cn/n1/2023/0504/c1006-32677693.html)).
+Zhengrong Yue, which can be pronounced simply as \[Jason Yu\], is now a first year PhD student at Shanghai Jiao Tong University and Shanghai AI Lab. He received his Bachelor of Engineering degree from China University of Mining and Technology (Beijing). His research interests are video generation and understanding, mainly focusing on multimodal large model and AIGC. He used to work as an algorithm intern in the Natural Language Understanding (NLU) Lab at Samsung R&D Institute China - Beijing (SRC-B). He was awarded the National Scholarship, the Beijing Three Good Students, the Special Scholarship, and the Sun Koshizaki Scholarship. He has received [reports from People's Daily]([http://paper.people.com.cn/rmrb/html/2023-05/04/nw.D110000renmrb_20230504_1-13.htm](http://edu.people.com.cn/n1/2023/0504/c1006-32677693.html)).
 
 Research Direction
 ======
