@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhengrong Yue (岳政融)"
+title                    : "Zhengrong Yue"
 title_separator          : "-"
 name                     : &name "Zhengrong Yue"
 description              : &description "personal description"
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Yuezhengrong/"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -64,6 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
+  CSDN             : "https://blog.csdn.net/weixin_54338498?spm=1011.2480.3001.5343"
   twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
