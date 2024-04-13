@@ -21,7 +21,7 @@ repository               : "Yuezhengrong/Yuezhengrong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_new.png"
   name             : "Zhengrong Yue"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student, Shanghai Jiao Tong Uneversity & Shanghai AI Lab"
