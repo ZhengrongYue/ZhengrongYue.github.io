@@ -48,28 +48,28 @@ The contents above will be part of a list of publications, if the user clicks th
 
 🤵🏻 Internships
 ======
-PhD: Shanghai Jiao Tong University & Shanghai AI Lab, 2024~Present
+- Shanghai Artificial Intelligence Laboratory, General Vision Lab (OpenGVLab)  
+  **July 2024**  
+  Studied integrated video understanding and generation tasks within multimodal frameworks.
+  
+- Shenzhen Institute of Advanced Technology, Multimedia Lab (MMLAB)  
+  **November 2023**  
+  Explored video style editing based on MLLM Agents.
+  
+- Samsung R&D Institute China-Beijing, Language Understanding Lab (LUL)  
+  **September 2023**  
+  Developed a multilingual document question-answering large model for Galaxy Z-Fold smartphones based on RAG.
 
-Intern：Natural Language Understanding (NLU) Lab, Samsung R&D Institute China - Beijing (SRC-B), 2024.09~2024.11
-
-Bachelor: Department of Computer Science and Technology, China University of Mining and Technology (Beijing), 2020~2024
 
 
-🏅 Awards
+🏅 Honors
 ======
-The 23td China Robotics and Artificial Intelligence Competition Intelligent Sorting Challenge (National No. 1) National First Prize(2022)
-
-The 17th National Undergraduate Smart Car Competition Xunfei Creative Group (National Top Four) National First Prize(2022)
-
-The 15th National College Student Energy Conservation and Emission Reduction Social Practice and Science and Technology Contest, National Third Prize(2022)
-
-The 15th China Undergraduate Computer Design Contest Provincial Third Prize(2022)
-
-The 15th Beijing College Students Physics Experiment Competition Provincial Third Prize(2022)
-
-The 4th Beijing University Student Energy Conservation and Water Conservation Contest Provincial Second Prize(2022)
+- The 23td China Robotics and Artificial Intelligence Competition Intelligent Sorting Challenge (National No. 1) National First Prize(2022)
+- The 17th National Undergraduate Smart Car Competition Xunfei Creative Group (National Top Four) National First Prize(2022)
+- The 15th National College Student Energy Conservation and Emission Reduction Social Practice and Science and Technology Contest, National Third Prize(2022)
+- The 15th China Undergraduate Computer Design Contest Provincial Third Prize(2022)
 
 
-📑 Professional Activity
+📑 Services
 ======
 Attend CVPR 2023 Beijing Workshop, 2023.06
