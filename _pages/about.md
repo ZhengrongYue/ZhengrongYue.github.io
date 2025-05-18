@@ -7,10 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-✨ Research Interest
+📓 Biograpgy [CV](files/CV_ZhengrongYue.pdf)
 ======
-- Video Generation and Understanding
-- Multimodal Large Models
+I am a Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Lab. My advisors are Yali Wang. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024. Currently, I am a Research Intern at Shanghai AI Lab. I was fortunate to be involved in internship programs at Samsung and Shenzhen Institute of Advanced Technology (SIAT).
+
+My research interests include Unified Multimodal Understanding and Generation, Video Understanding, Video Generation. Most of my work focuses on unified multimodal understanding and generation foundation models, covering model design, large-scale pretraining, dataset collection, and benchmark evaluation.
+
+✨ Research Interests
+======
+- Unified Multimodal Generation and Understanding
 - Multimodal Agent
 
 Specific work can be found in: [Publications](https://zhengrongyue.github.io/publications/).
