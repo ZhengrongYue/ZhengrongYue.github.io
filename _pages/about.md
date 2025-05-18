@@ -11,10 +11,9 @@ redirect_from:
 ✨ <font face="Cambria" color=Blue>Biograpgy [<font face="Cambria" color=Blue>CV</font>](files/CV_ZhengrongYue.pdf)
 ======
 
-<font face="Cambria">
-I am a Ph.D. student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) and [Shanghai AI Lab](https://www.shlab.org.cn/). My advisors are [Yali Wang](https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ). I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024. Currently, I am a Research Intern at Shanghai AI Lab. I was fortunate to be involved in internship programs at Samsung and Shenzhen Institute of Advanced Technology (SIAT).
+<font face="Cambria">I am a Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Lab. My advisors are </font>[<font face="Cambria">Yali Wang</font>](https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ)<font face="Cambria">. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024. Currently, I am a Research Intern at Shanghai AI Lab. I was fortunate to be involved in internship programs at Samsung and Shenzhen Institute of Advanced Technology (SIAT).</font>
 
-My research interests include *Unified Multimodal Understanding and Generation*, *Video Understanding*, *Video Generation*, *Multimodal Agent*. Most of my work focuses on unified multimodal understanding and generation foundation models, covering model design, large-scale pretraining, dataset collection, and benchmark evaluation.
+<font face="Cambria">My research interests include </font>*<font face="Cambria">Unified Multimodal Understanding and Generation</font>*, *<font face="Cambria">Video Understanding</font>*, *<font face="Cambria">Video Generation</font>*, *<font face="Cambria">Multimodal Agent</font>*<font face="Cambria">. Most of my work focuses on unified multimodal understanding and generation foundation models, covering model design, large-scale pretraining, dataset collection, and benchmark evaluation.
 </font>
 
 
