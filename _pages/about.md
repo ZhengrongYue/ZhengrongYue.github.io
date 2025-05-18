@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-✨ <font face="Cambria" color=Blue>Biograpgy [<font face="Cambria" color=Blue>CV</font>](files/CV_ZhengrongYue.pdf)
+✨ <font face="Cambria" color=RoyalBlue>Biograpgy [<font face="Cambria" color=MidnightBlue>CV</font>](files/CV_ZhengrongYue.pdf)
 ======
 
 <font face="Cambria">I am a Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Lab. My advisors are </font>[<font face="Cambria">Yali Wang</font>](https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ)<font face="Cambria">. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024. Currently, I am a Research Intern at Shanghai AI Lab. I was fortunate to be involved in internship programs at Samsung and Shenzhen Institute of Advanced Technology (SIAT).</font>
@@ -17,7 +17,7 @@ redirect_from:
 </font>
 
 
-📑 <font face="Cambria" color=Blue>Publications</font>
+📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com.hk/citations?user=l2WXe8cAAAAJ&hl=zh-CN">my Google Scholar profile</a>.</div>
@@ -37,7 +37,7 @@ citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
 
 
-🤵🏻 <font face="Cambria" color=Blue>Internships</font>
+🤵🏻 <font face="Cambria" color=RoyalBlue>Internships</font>
 ======
 <font face="Cambria">
 
@@ -55,7 +55,7 @@ The contents above will be part of a list of publications, if the user clicks th
 </font>
 
 
-🏅 <font face="Cambria" color=Blue>Honors</font>
+🏅 <font face="Cambria" color=RoyalBlue>Honors</font>
 ======
 <font face="Cambria">
   
@@ -67,7 +67,7 @@ The contents above will be part of a list of publications, if the user clicks th
 </font>
 
 
-📑 <font face="Cambria" color=Blue>Services</font>
+📑 <font face="Cambria" color=RoyalBlue>Services</font>
 ======
 <font face="Cambria">
 
