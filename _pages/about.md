@@ -22,6 +22,8 @@ redirect_from:
 <font face="Cambria">Most of my work focuses on unified multimodal understanding and generation foundation models, covering model design, large-scale pretraining, dataset collection, and benchmark evaluation.</font>
 
 
+🙏 <font face="Cambria" color=Red>I'm actively pursuing intern opportunities in Multimodal Understanding and Generation. Feel free to reach out for potential collaborations.</font>
+
 📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
 
