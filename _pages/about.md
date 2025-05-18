@@ -41,6 +41,7 @@ The contents above will be part of a list of publications, if the user clicks th
 🤵🏻 <font face="Cambria" color=Blue>Internships</font>
 ======
 <font face="Cambria">
+
 - Shanghai Artificial Intelligence Laboratory, General Vision Lab (OpenGVLab)  
   **July 2024**  
   Studied integrated video understanding and generation tasks within multimodal frameworks.
