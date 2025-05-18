@@ -21,8 +21,8 @@ redirect_from:
 
 <font face="Cambria">Most of my work focuses on unified multimodal understanding and generation foundation models, covering model design, large-scale pretraining, dataset collection, and benchmark evaluation.</font>
 
-
 🙏 <font face="Cambria" color=Red>I'm actively pursuing intern opportunities in Multimodal Understanding and Generation. Feel free to reach out for potential collaborations.</font>
+
 
 📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
@@ -86,13 +86,13 @@ redirect_from:
 
   <font face="Cambria">Studied integrated video understanding and generation tasks within multimodal frameworks.</font>
   
-- **Shenzhen Institute of Advanced Technology, Multimedia Lab (MMLAB)</font>**
+- **<font face="Cambria">Shenzhen Institute of Advanced Technology, Multimedia Lab (MMLAB)</font>**
 
   <font face="Cambria">November 2023</font>
 
   <font face="Cambria">Explored video style editing based on MLLM Agents.</font>
   
-- **Samsung R&D Institute China-Beijing, Language Understanding Lab (LUL)</font>**
+- **<font face="Cambria">Samsung R&D Institute China-Beijing, Language Understanding Lab (LUL)</font>**
 
   <font face="Cambria">September 2023</font>
 
