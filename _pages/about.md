@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-✨ <font face="Cambria" color=RoyalBlue>Biograpgy [<font face="Cambria" color=MidnightBlue>CV</font>](files/CV_ZhengrongYue.pdf)
+✨ <font face="Cambria" color=RoyalBlue>Biograpgy [<font face="Cambria" color=MidnightBlue>[CV]</font>](files/CV_ZhengrongYue.pdf)
 ======
 
 <font face="Cambria">I am a Ph.D. student at Shanghai Jiao Tong University and Shanghai AI Lab. My advisors are </font>[<font face="Cambria">Yali Wang</font>](https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ)<font face="Cambria">. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024. Currently, I am a Research Intern at Shanghai AI Lab. I was fortunate to be involved in internship programs at Samsung and Shenzhen Institute of Advanced Technology (SIAT).</font>
