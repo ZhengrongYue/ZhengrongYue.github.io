@@ -19,9 +19,6 @@ redirect_from:
 
 📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com.hk/citations?user=l2WXe8cAAAAJ&hl=zh-CN">my Google Scholar profile</a>.</div>
-{% endif %}
 
 ---
 title: "Paper Title Number 1"
