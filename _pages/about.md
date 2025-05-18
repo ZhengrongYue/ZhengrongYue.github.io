@@ -81,15 +81,21 @@ redirect_from:
 
 
 - **<font face="Cambria">Shanghai Artificial Intelligence Laboratory, General Vision Lab (OpenGVLab)</font>**
+  
   <font face="Cambria">July 2024</font>
+
   <font face="Cambria">Studied integrated video understanding and generation tasks within multimodal frameworks.</font>
   
 - **Shenzhen Institute of Advanced Technology, Multimedia Lab (MMLAB)</font>**
+
   <font face="Cambria">November 2023</font>
+
   <font face="Cambria">Explored video style editing based on MLLM Agents.</font>
   
 - **Samsung R&D Institute China-Beijing, Language Understanding Lab (LUL)</font>**
+
   <font face="Cambria">September 2023</font>
+
   <font face="Cambria">Developed a multilingual document question-answering large model for Galaxy Z-Fold smartphones based on RAG.</font>
 
 
