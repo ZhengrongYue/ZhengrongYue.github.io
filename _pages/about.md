@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-✨ <font face="Cambria" color=Blue>Biograpgy [CV](files/CV_ZhengrongYue.pdf)</font>
+✨ <font face="Cambria" color=Blue>Biograpgy [<font face="Cambria" color=Blue>CV</font>](files/CV_ZhengrongYue.pdf)
 ======
 
 <font face="Cambria">
