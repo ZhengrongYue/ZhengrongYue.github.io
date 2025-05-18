@@ -59,14 +59,18 @@ The contents above will be part of a list of publications, if the user clicks th
 🏅 <font face="Cambria" color=Blue>Honors</font>
 ======
 <font face="Cambria">
+  
 - The 23td China Robotics and Artificial Intelligence Competition Intelligent Sorting Challenge (National No. 1) National First Prize(2022)
 - The 17th National Undergraduate Smart Car Competition Xunfei Creative Group (National Top Four) National First Prize(2022)
 - The 15th National College Student Energy Conservation and Emission Reduction Social Practice and Science and Technology Contest, National Third Prize(2022)
 - The 15th China Undergraduate Computer Design Contest Provincial Third Prize(2022)
+
 </font>
 
 📑 <font face="Cambria" color=Blue>Services</font>
 ======
 <font face="Cambria">
-Attend CVPR 2023 Beijing Workshop, 2023.06
+
+  - Attend CVPR 2023 Beijing Workshop, 2023.06
+    
 </font>
