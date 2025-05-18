@@ -60,7 +60,7 @@ redirect_from:
 
 
 
-📑 <font face="Cambria" color=RoyalBlue>Services</font>
+🤝 <font face="Cambria" color=RoyalBlue>Services</font>
 ======
 
 - <font face="Cambria">Attend CVPR 2023 Beijing Workshop, 2023.06</font>
