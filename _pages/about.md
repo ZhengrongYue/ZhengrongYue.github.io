@@ -109,12 +109,18 @@ redirect_from:
 🤵🏻 <font face="Cambria" color=RoyalBlue>Internships</font>
 ======
 
+- **<font face="Cambria">Huawei, Noah's Ark Lab</font>**
+  
+  <font face="Cambria">July 2025</font>
+
+  <font face="Cambria">Unified Multimodal Model and Benchmark.</font>
+
 
 - **<font face="Cambria">Shanghai Artificial Intelligence Laboratory, General Vision Lab (OpenGVLab)</font>**
   
   <font face="Cambria">July 2024</font>
 
-  <font face="Cambria">Studied integrated video understanding and generation tasks within multimodal frameworks.</font>
+  <font face="Cambria">Pre-training and Representation Learning for Unified Understanding and generation.</font>
 
   
 - **<font face="Cambria">Shenzhen Institute of Advanced Technology, Multimedia Lab (MMLAB)</font>**
