@@ -43,7 +43,7 @@ redirect_from:
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
-- **<font face="Cambria" color=MidnightBlue>;G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</font>**
+- **<font face="Cambria" color=MidnightBlue>G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</font>**
   
   <font face="Cambria">Boyu Chen, Siran Chen, Zhengrong Yue, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang</font>
   
