@@ -27,6 +27,31 @@ redirect_from:
 📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
 
+- **&lt;font face="Cambria" color=MidnightBlue&gt;UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation&lt;/font&gt;**
+  
+  &lt;font face="Cambria"&gt;Zhengrong Yue, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, KunPeng Du, Yi Wang, Limin Wang, Yali Wang&lt;/font&gt;
+  
+  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  
+  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+
+- **&lt;font face="Cambria" color=MidnightBlue&gt;Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing&lt;/font&gt;**
+  
+  &lt;font face="Cambria"&gt;Zhentao Zou, Zhengrong Yue, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen&lt;/font&gt;
+  
+  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  
+  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+
+- **&lt;font face="Cambria" color=MidnightBlue&gt;G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation&lt;/font&gt;**
+  
+  &lt;font face="Cambria"&gt;Boyu Chen, Siran Chen, Zhengrong Yue, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang&lt;/font&gt;
+  
+  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  
+  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+
+
 - **<font face="Cambria" color=MidnightBlue>VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning</font>**
   
   <font face="Cambria">Zikang Wang*, Boyu Chen*, Zhengrong Yue*, Yi Wang, Yu Qiao, Limin Wang, Yali Wang .</font>
@@ -36,11 +61,11 @@ redirect_from:
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
 
-- **<font face="Cambria" color=MidnightBlue>VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception</font>**
+- **<font face="Cambria" color=MidnightBlue>VideoChat-R1.5: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception</font>**
 
   <font face="Cambria">Ziang Yan*, Yinan He*, Xinhao Li*, Zhengrong Yue*, Xiangyu Zeng, Yali Wang, Yu Qiao, Limin Wang, Yi Wang .</font>
 
-  *<font face="Cambria">Arxiv, 2025.</font>*
+  *<font face="Cambria">NIPS 2025.</font>*
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
@@ -49,7 +74,7 @@ redirect_from:
 
   <font face="Cambria">Boyu Chen*, Zhengrong Yue*, Siran Chen*, Zikang Wang*, Yang Liu, Peng Li, Yali Wang .</font>
   
-  *<font face="Cambria">Arxiv, 2025.</font>*
+  *<font face="Cambria">ICCV 2025.</font>*
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
@@ -58,7 +83,7 @@ redirect_from:
 
   <font face="Cambria">Zhengrong Yue*, Shaobin Zhuang*, Kunchang Li*, Yanbo Ding*, Yali Wang.</font>
   
-  *<font face="Cambria">Computer Vision and Pattern Recognition (CVPR), 2025.</font>*
+  *<font face="Cambria">CVPR 2025.</font>*
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
@@ -67,7 +92,7 @@ redirect_from:
   
   <font face="Cambria">Xiangyu Zeng, Kunchang Li, Chenting Wang, Xinhao Li, Tianxiang Jiang, Ziang Yan, Songze Li, Yansong Shi, Zhengrong Yue, Yi Wang, Yali Wang, Yu Qiao, Limin Wang.</font>
   
-  *<font face="Cambria">International Conference on Learning Representations (ICLR), 2025.</font>*
+  *<font face="Cambria">ICLR 2025.</font>*
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
@@ -76,7 +101,7 @@ redirect_from:
   
   <font face="Cambria">Yanbo Ding*, Shaobin Zhuang*, Kunchang Li*, Zhengrong Yue*, Yu Qiao, Yali Wang.</font>
   
-  *<font face="Cambria">Association for the Advancement of Artificial Intelligence (ECCV), 2025.</font>*
+  *<font face="Cambria">AAAI 2025.</font>*
   
   [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
