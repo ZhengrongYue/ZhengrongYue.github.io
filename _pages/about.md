@@ -27,29 +27,29 @@ redirect_from:
 📑 <font face="Cambria" color=RoyalBlue>Publications</font>
 ======
 
-- **&lt;font face="Cambria" color=MidnightBlue&gt;UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation&lt;/font&gt;**
+- **<font face="Cambria" color=MidnightBlue>UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</font>**
   
-  &lt;font face="Cambria"&gt;Zhengrong Yue, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, KunPeng Du, Yi Wang, Limin Wang, Yali Wang&lt;/font&gt;
+  <font face="Cambria">Zhengrong Yue, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, KunPeng Du, Yi Wang, Limin Wang, Yali Wang</font>
   
-  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  *<font face="Cambria">Arxiv, 2025.</font>*
   
-  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+  [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
-- **&lt;font face="Cambria" color=MidnightBlue&gt;Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing&lt;/font&gt;**
+- **<font face="Cambria" color=MidnightBlue>Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing</font>**
   
-  &lt;font face="Cambria"&gt;Zhentao Zou, Zhengrong Yue, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen&lt;/font&gt;
+  <font face="Cambria">Zhentao Zou, Zhengrong Yue, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen</font>
   
-  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  *<font face="Cambria">Arxiv, 2025.</font>*
   
-  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+  [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
-- **&lt;font face="Cambria" color=MidnightBlue&gt;G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation&lt;/font&gt;**
+- **<font face="Cambria" color=MidnightBlue>;G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</font>**
   
-  &lt;font face="Cambria"&gt;Boyu Chen, Siran Chen, Zhengrong Yue, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang&lt;/font&gt;
+  <font face="Cambria">Boyu Chen, Siran Chen, Zhengrong Yue, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang</font>
   
-  *&lt;font face="Cambria"&gt;Arxiv, 2025.&lt;/font&gt;*
+  *<font face="Cambria">Arxiv, 2025.</font>*
   
-  [&lt;font face="Cambria"&gt;Paper&lt;/font&gt;]() [&lt;font face="Cambria"&gt;Code&lt;/font&gt;]()
+  [<font face="Cambria">Paper</font>]() [<font face="Cambria">Code</font>]()
 
 
 - **<font face="Cambria" color=MidnightBlue>VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning</font>**
