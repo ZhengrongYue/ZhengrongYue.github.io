@@ -109,7 +109,7 @@ redirect_from:
 🤵🏻 <font face="Cambria" color=RoyalBlue>Internships</font>
 ======
 
-- **<font face="Cambria">Huawei, Noah's Ark Lab</font>**
+- **<font face="Cambria">Huawei, Foundation Model Department (Noah's Ark Lab)</font>**
   
   <font face="Cambria">July 2025</font>
 
