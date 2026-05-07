@@ -268,7 +268,7 @@ redirect_from:
 </div>
 </div>
 
-<h2 class="section-heading fade-in"><span class="icon">��</span> Honors & Awards</h2>
+<h2 class="section-heading fade-in"><span class="icon">🏅</span> Honors & Awards</h2>
 <ul class="award-list fade-in">
   <li><span class="award-year">2024</span> <strong>Outstanding Graduate</strong> of Beijing</li>
   <li><span class="award-year">2023</span> <strong>National Scholarship</strong> (Top 1%)</li>
