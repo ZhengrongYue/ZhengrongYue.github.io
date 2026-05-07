@@ -24,9 +24,9 @@ author:
   avatar           : "profile_new.png"
   name             : "Zhengrong Yue"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student, Shanghai Jiao Tong Uneversity & Shanghai AI Lab"
+  bio              : "PhD Student, Shanghai Jiao Tong University & Shanghai AI Lab"
   location         : "Shanghai"
-  employer         : "Shanghai Jiao Tong Uneversity"
+  employer         : "Shanghai Jiao Tong University"
   uri              : "https://ZhengrongYue.github.io/"
   email            : "amo_yuezr@sjtu.edu.cn" 
 
@@ -38,12 +38,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/ZhengrongYue/"
+  github           : "ZhengrongYue"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -61,7 +61,7 @@ author:
   telegram         : # URL
   tumblr           : # Username
   CSDN             : "https://blog.csdn.net/weixin_54338498?spm=1011.2480.3001.5343"
-  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : # Username
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
