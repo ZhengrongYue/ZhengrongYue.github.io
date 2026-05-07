@@ -124,7 +124,7 @@ redirect_from:
 <p class="pub-note fade-in">* indicates equal contribution</p>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/uniflow.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="UniFlow"></div>
+  <div class="pub-thumb"><img src="images/uniflow.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="UniFlow"></div>
   <div class="pub-info">
     <div class="pub-title">UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</div>
     <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, Kunpeng Du, Yi Wang, Limin Wang, Yali Wang</div>
@@ -134,7 +134,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/beyond_cot.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>��</span>';" alt="Beyond CoT"></div>
+  <div class="pub-thumb"><img src="images/beyond_cot.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>��</span>';" alt="Beyond CoT"></div>
   <div class="pub-info">
     <div class="pub-title">Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing</div>
     <div class="pub-authors">Zhentao Zou*, <span class="me">Zhengrong Yue</span>*, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen</div>
@@ -144,7 +144,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/videochat_m1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-M1"></div>
+  <div class="pub-thumb"><img src="images/videochat_m1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-M1"></div>
   <div class="pub-info">
     <div class="pub-title">VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning</div>
     <div class="pub-authors">Boyu Chen*, Zikang Wang*, <span class="me">Zhengrong Yue</span>*, Kainan Yan*, Chenyun Yu, Yi Huang, Zijun Liu, Yafei Wen, Xiaoxin Chen, Yang Liu, Peng Li, Yali Wang</div>
@@ -154,7 +154,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/videochat_a1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-A1"></div>
+  <div class="pub-thumb"><img src="images/videochat_a1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-A1"></div>
   <div class="pub-info">
     <div class="pub-title">VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning</div>
     <div class="pub-authors">Zikang Wang*, Boyu Chen*, <span class="me">Zhengrong Yue</span>*, Yi Wang, Yu Qiao, Limin Wang, Yali Wang</div>
@@ -164,7 +164,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/gubs.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="G-UBS"></div>
+  <div class="pub-thumb"><img src="images/gubs.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="G-UBS"></div>
   <div class="pub-info">
     <div class="pub-title">G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</div>
     <div class="pub-authors">Boyu Chen*, Siran Chen*, <span class="me">Zhengrong Yue</span>*, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang</div>
@@ -174,7 +174,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/vtts.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VTTS"></div>
+  <div class="pub-thumb"><img src="images/vtts.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VTTS"></div>
   <div class="pub-info">
     <div class="pub-title">VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception</div>
     <div class="pub-authors">Ziang Yan*, Yinan He*, Xinhao Li*, <span class="me">Zhengrong Yue</span>*, Xiangyu Zeng, Yali Wang, Yu Qiao, Limin Wang, Yi Wang</div>
@@ -184,7 +184,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/lvagent.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="LVAgent"></div>
+  <div class="pub-thumb"><img src="images/lvagent.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="LVAgent"></div>
   <div class="pub-info">
     <div class="pub-title">LVAgent: Dynamic Round-by-round MLLM Agent Collaboration for Long Video Understanding</div>
     <div class="pub-authors">Boyu Chen*, <span class="me">Zhengrong Yue</span>*, Siran Chen*, Zikang Wang, Yang Liu, Peng Li, Yali Wang</div>
@@ -194,7 +194,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/vstylist.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="V-Stylist"></div>
+  <div class="pub-thumb"><img src="images/vstylist.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="V-Stylist"></div>
   <div class="pub-info">
     <div class="pub-title">V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents</div>
     <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Shaobin Zhuang, Kunchang Li, Yanbo Ding, Yali Wang</div>
@@ -204,7 +204,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/timesuite.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="TimeSuite"></div>
+  <div class="pub-thumb"><img src="images/timesuite.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="TimeSuite"></div>
   <div class="pub-info">
     <div class="pub-title">TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning</div>
     <div class="pub-authors">Xiangyu Zeng, Kunchang Li, Chenting Wang, Xinhao Li, Tianxiang Jiang, Ziang Yan, Songze Li, Yansong Shi, <span class="me">Zhengrong Yue</span>, Yi Wang, Yali Wang, Yu Qiao, Limin Wang</div>
@@ -214,7 +214,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/papers/muses.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="Muses"></div>
+  <div class="pub-thumb"><img src="images/muses.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="Muses"></div>
   <div class="pub-info">
     <div class="pub-title">Muses: 3D-Controllable Image Generation via Multi-Modal Agent Collaboration</div>
     <div class="pub-authors">Yanbo Ding, Shaobin Zhuang, Kunchang Li, <span class="me">Zhengrong Yue</span>, Yu Qiao, Yali Wang</div>
