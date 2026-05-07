@@ -134,7 +134,7 @@ redirect_from:
 </div>
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/beyond_cot.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>��</span>';" alt="Beyond CoT"></div>
+  <div class="pub-thumb"><img src="images/beyond_cot.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="Beyond CoT"></div>
   <div class="pub-info">
     <div class="pub-title">Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing</div>
     <div class="pub-authors">Zhentao Zou*, <span class="me">Zhengrong Yue</span>*, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen</div>
