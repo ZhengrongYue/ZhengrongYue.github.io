@@ -139,7 +139,7 @@ redirect_from:
   <div class="pub-info">
     <div class="pub-title">UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</div>
     <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, Kunpeng Du, Yi Wang, Limin Wang, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge arxiv">ICLR 2026</span> <span class="pub-badge new-paper">New</span></div>
+    <div class="pub-venue"><span class="pub-badge conf">ICLR 2026</span> <span class="pub-badge new-paper">New</span></div>
     <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
   </div>
 </div>
@@ -159,7 +159,7 @@ redirect_from:
   <div class="pub-info">
     <div class="pub-title">VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning</div>
     <div class="pub-authors">Boyu Chen*, Zikang Wang*, <span class="me">Zhengrong Yue</span>*, Kainan Yan*, Chenyun Yu, Yi Huang, Zijun Liu, Yafei Wen, Xiaoxin Chen, Yang Liu, Peng Li, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge arxiv">CVPR 2026</span></div>
+    <div class="pub-venue"><span class="pub-badge conf">CVPR 2026</span></div>
     <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
   </div>
 </div>
