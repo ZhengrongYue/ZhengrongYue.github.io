@@ -125,7 +125,7 @@ redirect_from:
 
 
 <div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/pae" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="PAE"></div>
+  <div class="pub-thumb"><img src="images/pae.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="PAE"></div>
   <div class="pub-info">
     <div class="pub-title">What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion</div>
     <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Taihang Hu, Mengting Chen, Haiyu Zhang, Zihao Pan, Tao Liu, Zikang Wang, Jinsong Lan, Xiaoyong Zhu, Bo Zheng, Yali Wang</div>
