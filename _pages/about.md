@@ -123,12 +123,23 @@ redirect_from:
 <h2 class="section-heading fade-in"><span class="icon">📑</span> Publications</h2>
 <p class="pub-note fade-in">* indicates equal contribution</p>
 
+
+<div class="pub-card fade-in">
+  <div class="pub-thumb"><img src="images/pae" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="PAE"></div>
+  <div class="pub-info">
+    <div class="pub-title">What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion</div>
+    <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Taihang Hu, Mengting Chen, Haiyu Zhang, Zihao Pan, Tao Liu, Zikang Wang, Jinsong Lan, Xiaoyong Zhu, Bo Zheng, Yali Wang</div>
+    <div class="pub-venue"><span class="pub-badge arxiv">Arxiv 2026</span> <span class="pub-badge new-paper">New</span></div>
+    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
+  </div>
+</div>
+
 <div class="pub-card fade-in">
   <div class="pub-thumb"><img src="images/uniflow.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="UniFlow"></div>
   <div class="pub-info">
     <div class="pub-title">UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</div>
     <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, Kunpeng Du, Yi Wang, Limin Wang, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge arxiv">Arxiv 2025</span> <span class="pub-badge new-paper">New</span></div>
+    <div class="pub-venue"><span class="pub-badge arxiv">ICLR 2026</span> <span class="pub-badge new-paper">New</span></div>
     <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
   </div>
 </div>
@@ -209,7 +220,7 @@ redirect_from:
     <div class="pub-title">TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning</div>
     <div class="pub-authors">Xiangyu Zeng, Kunchang Li, Chenting Wang, Xinhao Li, Tianxiang Jiang, Ziang Yan, Songze Li, Yansong Shi, <span class="me">Zhengrong Yue</span>, Yi Wang, Yali Wang, Yu Qiao, Limin Wang</div>
     <div class="pub-venue"><span class="pub-badge conf">ICLR 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">�� Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
+    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
   </div>
 </div>
 
