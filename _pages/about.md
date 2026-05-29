@@ -108,7 +108,7 @@ redirect_from:
 
 <p class="bio-text fade-in">I am a Ph.D. student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> and <a href="https://github.com/OpenGVLab">Shanghai AI Lab</a>. My advisor is <a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Prof. Yali Wang</a>. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024.</p>
 
-<p class="bio-text fade-in">Currently, I am a Research Intern at <strong>Alibaba (Taotian)</strong>. I have also spent wonderful time as a research intern at <strong>Huawei Noah's Ark Lab</strong>, <strong>Shanghai AI Lab</strong>, <strong>SIAT</strong>, and <strong>Samsung</strong>.</p>
+<p class="bio-text fade-in">Currently, I am a Research Intern at <strong>Meituan LongCat M17</strong>. I have also spent wonderful time as a research intern at <strong>Alibaba</strong>,<strong>Huawei Noah's Ark Lab</strong>, <strong>Shanghai AI Lab</strong>, <strong>SIAT</strong>, and <strong>Samsung</strong>.</p>
 
 <p class="bio-text fade-in">My research interests include:</p>
 <div class="research-interests fade-in">
@@ -237,12 +237,22 @@ redirect_from:
 <h2 class="section-heading fade-in"><span class="icon">🤵🏻</span> Internships</h2>
 
 <div class="fade-in">
+
+<div class="intern-item">
+  <div class="intern-logo"><img src="images/meituan" alt="MeiTuan"></div>
+  <div class="intern-content">
+    <div class="intern-header">MeiTuan — BeiDou Research Intern (LongCat M17)</div>
+    <div class="intern-meta">June 2026 – Present</div>
+    <div class="intern-desc">Unified MLLM; World Model.</div>
+  </div>
+</div>
+
 <div class="intern-item">
   <div class="intern-logo"><img src="images/alibaba.png" alt="Alibaba"></div>
   <div class="intern-content">
-    <div class="intern-header">Alibaba — Research Intern (Taotian Group)</div>
-    <div class="intern-meta">Jan 2026 – Present</div>
-    <div class="intern-desc">Unified Tokenizer; Unified Reward Model for Generation and Editing.</div>
+    <div class="intern-header">Alibaba — T-Star Research Intern (Taotian Group)</div>
+    <div class="intern-meta">Jan 2026 – June 2026</div>
+    <div class="intern-desc">Representation Tokenizer; Unified Reward Model for Generation and Editing.</div>
   </div>
 </div>
 <div class="intern-item">
