@@ -239,7 +239,7 @@ redirect_from:
 <div class="fade-in">
 
 <div class="intern-item">
-  <div class="intern-logo"><img src="images/meituan" alt="MeiTuan"></div>
+  <div class="intern-logo"><img src="images/meituan.png" alt="MeiTuan"></div>
   <div class="intern-content">
     <div class="intern-header">MeiTuan — BeiDou Research Intern (LongCat M17)</div>
     <div class="intern-meta">June 2026 – Present</div>
