@@ -114,11 +114,11 @@ redirect_from:
 <div class="research-interests fade-in">
   <span class="research-tag">🔗 Unified Multimodal Understanding & Generation</span>
   <span class="research-tag">🌐 Omni-modal Representation Learning</span>
+  <span class="research-tag">🌍 World Model</span>
   <span class="research-tag">🎬 Video Understanding & Generation</span>
-  <span class="research-tag">🤖 Multimodal Agents</span>
 </div>
 
-<div class="hiring-notice fade-in">🔥 I'm actively pursuing intern opportunities in Multimodal Understanding and Generation. Feel free to reach out for potential collaborations.</div>
+<div class="hiring-notice fade-in">🔥 I'm actively pursuing intern opportunities in Unified Multimodal Understanding and Generation or World Model. Feel free to reach out for potential collaborations.</div>
 
 <h2 class="section-heading fade-in"><span class="icon">📑</span> Publications</h2>
 <p class="pub-note fade-in">* indicates equal contribution</p>
