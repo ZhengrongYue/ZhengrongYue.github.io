@@ -1,15 +1,11 @@
-# main links links
-# main:
-#  - title: "Publications"
-#    url: /publications/
-
-#  - title: "InternShips"
-#    url: /internships/    
-    
-#  - title: "Honors"
-#    url: /honors/
-
-#  - title: "Services"
-#    url: /services/
-
-  
+main:
+  - title: "Research"
+    url: /#research
+  - title: "Publications"
+    url: /#publications
+  - title: "Experience"
+    url: /#experience
+  - title: "Education"
+    url: /#education
+  - title: "Service"
+    url: /#service

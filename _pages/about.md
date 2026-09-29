@@ -1,311 +1,48 @@
 ---
+layout: null
 permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
+title: Zhengrong Yue
+redirect_from:
   - /about/
   - /about.html
 ---
 
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Zhengrong Yue | Multimodal Models, Agents &amp; Embodied AI</title>
+<meta content="Zhengrong Yue, PhD student at Shanghai Jiao Tong University and Shanghai AI Lab. Research on unified multimodal models, LLM agents, and embodied AI." name="description"/>
+<link href="{{ '/' | absolute_url }}" rel="canonical"/>
 <style>
-:root {
-  --accent: #2563eb;
-  --accent-light: #3b82f6;
-  --accent-bg: rgba(37,99,235,0.08);
-  --badge-oral: #dc2626;
-  --badge-conf: #1e40af;
-  --badge-arxiv: #6b7280;
-  --card-bg: #ffffff;
-  --card-border: #e5e7eb;
-  --card-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-  --card-shadow-hover: 0 10px 25px rgba(0,0,0,0.08);
-  --section-title: #111827;
-  --text-primary: #1f2937;
-  --text-secondary: #6b7280;
-  --text-link: #2563eb;
-  --bg-body: #f9fafb;
-  --tag-bg: #f3f4f6;
-  --tag-text: #374151;
-  --highlight-bg: #fef3c7;
-  --highlight-text: #92400e;
-  --divider: #e5e7eb;
-}
-[data-theme="dark"] {
-  --accent: #60a5fa;
-  --accent-light: #93c5fd;
-  --accent-bg: rgba(96,165,250,0.1);
-  --badge-oral: #f87171;
-  --badge-conf: #93c5fd;
-  --badge-arxiv: #9ca3af;
-  --card-bg: #1e293b;
-  --card-border: #334155;
-  --card-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  --card-shadow-hover: 0 10px 25px rgba(0,0,0,0.3);
-  --section-title: #f1f5f9;
-  --text-primary: #e2e8f0;
-  --text-secondary: #94a3b8;
-  --text-link: #60a5fa;
-  --bg-body: #0f172a;
-  --tag-bg: #1e293b;
-  --tag-text: #cbd5e1;
-  --highlight-bg: rgba(251,191,36,0.15);
-  --highlight-text: #fbbf24;
-  --divider: #334155;
-}
-.theme-toggle{position:fixed;top:20px;right:20px;z-index:1000;background:var(--card-bg);border:1px solid var(--card-border);border-radius:50%;width:44px;height:44px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.2rem;box-shadow:var(--card-shadow);transition:all .3s ease}
-.theme-toggle:hover{transform:scale(1.1);box-shadow:var(--card-shadow-hover)}
-.section-heading{font-family:'Source Serif 4','Georgia',serif;font-size:1.6rem;font-weight:700;color:var(--section-title);margin:2.5rem 0 1.2rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:.5rem}
-.section-heading .icon{font-size:1.3rem}
-.bio-text{font-family:'Inter',sans-serif;font-size:.95rem;line-height:1.75;color:var(--text-primary);margin-bottom:.8rem}
-.bio-text a{color:var(--text-link);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}
-.bio-text a:hover{border-bottom-color:var(--text-link)}
-.research-interests{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0}
-.research-tag{background:var(--accent-bg);color:var(--accent);padding:.35rem .85rem;border-radius:20px;font-family:'Inter',sans-serif;font-size:.82rem;font-weight:500;transition:all .2s}
-.research-tag:hover{transform:translateY(-1px);box-shadow:0 2px 8px rgba(37,99,235,0.15)}
-.hiring-notice{background:var(--highlight-bg);color:var(--highlight-text);padding:.75rem 1rem;border-radius:8px;font-family:'Inter',sans-serif;font-size:.88rem;font-weight:500;margin:1rem 0;border-left:3px solid var(--highlight-text)}
-.cv-link{display:inline-flex;align-items:center;gap:.3rem;background:var(--accent);color:#fff !important;padding:.35rem .9rem;border-radius:6px;font-family:'Inter',sans-serif;font-size:.82rem;font-weight:500;text-decoration:none !important;transition:all .2s;margin-left:.5rem}
-.cv-link:hover{opacity:.9;transform:translateY(-1px)}
-.pub-note{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--text-secondary);font-style:italic;margin-bottom:1rem}
-.pub-card{display:flex;gap:1rem;background:var(--card-bg);border:1px solid var(--card-border);border-radius:10px;padding:1rem;margin-bottom:1rem;box-shadow:var(--card-shadow);transition:all .3s ease}
-.pub-card:hover{box-shadow:var(--card-shadow-hover);transform:translateY(-2px)}
-.pub-thumb{flex-shrink:0;width:180px;height:110px;border-radius:6px;overflow:hidden;background:var(--tag-bg);display:flex;align-items:center;justify-content:center}
-.pub-thumb img{width:100%;height:100%;object-fit:cover}
-.pub-thumb-placeholder{font-size:2rem;color:var(--text-secondary);opacity:.4}
-.pub-info{flex:1;min-width:0}
-.pub-title{font-family:'Source Serif 4','Georgia',serif;font-size:.95rem;font-weight:650;color:var(--section-title);line-height:1.4;margin-bottom:.3rem}
-.pub-authors{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--text-secondary);line-height:1.5;margin-bottom:.3rem}
-.pub-authors .me{color:var(--accent);font-weight:600}
-.pub-venue{display:inline-flex;align-items:center;gap:.4rem;margin-bottom:.4rem}
-.pub-badge{display:inline-block;padding:.15rem .55rem;border-radius:4px;font-family:'Inter',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.3px;color:#fff}
-.pub-badge.conf{background:var(--badge-conf)}
-.pub-badge.oral{background:var(--badge-oral)}
-.pub-badge.arxiv{background:var(--badge-arxiv)}
-.pub-badge.new-paper{background:linear-gradient(135deg,#f59e0b,#ef4444);animation:pulse-badge 2s infinite}
-@keyframes pulse-badge{0%,100%{opacity:1}50%{opacity:.7}}
-.pub-links{display:flex;gap:.4rem;flex-wrap:wrap}
-.pub-link-btn{display:inline-flex;align-items:center;gap:.25rem;padding:.2rem .6rem;border-radius:5px;font-family:'Inter',sans-serif;font-size:.72rem;font-weight:500;text-decoration:none !important;border:1px solid var(--card-border);color:var(--text-primary) !important;background:var(--card-bg);transition:all .2s}
-.pub-link-btn:hover{border-color:var(--accent);color:var(--accent) !important;background:var(--accent-bg)}
-.intern-item{display:flex;align-items:flex-start;gap:1rem;padding:.8rem 0;border-bottom:1px solid var(--divider);transition:all .2s}
-.intern-item:last-child{border-bottom:none}
-.intern-logo{flex-shrink:0;width:40px;height:40px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--tag-bg)}
-.intern-logo img{width:100%;height:100%;object-fit:contain;padding:4px}
-.intern-content{flex:1}
-.intern-header{font-family:'Inter',sans-serif;font-size:.9rem;font-weight:600;color:var(--section-title)}
-.intern-meta{font-family:'Inter',sans-serif;font-size:.78rem;color:var(--text-secondary);margin-top:.15rem}
-.intern-desc{font-family:'Inter',sans-serif;font-size:.8rem;color:var(--text-secondary);margin-top:.25rem;line-height:1.5}
-.award-list,.service-list{list-style:none;padding:0;margin:0}
-.award-list li,.service-list li{font-family:'Inter',sans-serif;font-size:.88rem;color:var(--text-primary);padding:.45rem 0;border-bottom:1px solid var(--divider);display:flex;align-items:center;gap:.5rem}
-.award-list li:last-child,.service-list li:last-child{border-bottom:none}
-.award-year{font-size:.75rem;color:var(--text-secondary);font-weight:500;flex-shrink:0;width:40px}
-.fade-in{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
-.fade-in.visible{opacity:1;transform:translateY(0)}
-@media(max-width:768px){.pub-card{flex-direction:column}.pub-thumb{width:100%;height:160px}.theme-toggle{top:10px;right:10px;width:38px;height:38px;font-size:1rem}}
-</style>
-
-<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle dark/light mode">🌙</button>
-
-<h2 class="section-heading fade-in"><span class="icon">✨</span> Biography <a href="files/CV_ZhengrongYue.pdf" class="cv-link">📄 CV</a></h2>
-
-<p class="bio-text fade-in">I am a Ph.D. student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> and <a href="https://github.com/OpenGVLab">Shanghai AI Lab</a>. My advisor is <a href="https://scholar.google.com/citations?hl=zh-CN&user=hD948dkAAAAJ">Prof. Yali Wang</a>. I received my B.S. degree in Computer Science and Technology from China University of Mining and Technology (Beijing) in 2024.</p>
-
-<p class="bio-text fade-in">Currently, I am a Research Intern at <strong>Meituan LongCat M17</strong>. I have also spent wonderful time as a research intern at <strong>Alibaba</strong>,<strong>Huawei Noah's Ark Lab</strong>, <strong>Shanghai AI Lab</strong>, <strong>SIAT</strong>, and <strong>Samsung</strong>.</p>
-
-<p class="bio-text fade-in">My research interests include:</p>
-<div class="research-interests fade-in">
-  <span class="research-tag">🔗 Unified Multimodal Understanding & Generation</span>
-  <span class="research-tag">🌐 Omni-modal Representation Learning</span>
-  <span class="research-tag">🌍 World Model</span>
-  <span class="research-tag">🎬 Video Understanding & Generation</span>
-</div>
-
-<div class="hiring-notice fade-in">🔥 I'm actively pursuing intern opportunities in Unified Multimodal Understanding and Generation or World Model. Feel free to reach out for potential collaborations.</div>
-
-<h2 class="section-heading fade-in"><span class="icon">📑</span> Publications</h2>
-<p class="pub-note fade-in">* indicates equal contribution</p>
-
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/pae.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="PAE"></div>
-  <div class="pub-info">
-    <div class="pub-title">What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion</div>
-    <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Taihang Hu, Mengting Chen, Haiyu Zhang, Zihao Pan, Tao Liu, Zikang Wang, Jinsong Lan, Xiaoyong Zhu, Bo Zheng, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge arxiv">Arxiv 2026</span> <span class="pub-badge new-paper">New</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/uniflow.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="UniFlow"></div>
-  <div class="pub-info">
-    <div class="pub-title">UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</div>
-    <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, Kunpeng Du, Yi Wang, Limin Wang, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">ICLR 2026</span> <span class="pub-badge new-paper">New</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/beyond_cot.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="Beyond CoT"></div>
-  <div class="pub-info">
-    <div class="pub-title">Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing</div>
-    <div class="pub-authors">Zhentao Zou*, <span class="me">Zhengrong Yue</span>*, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen</div>
-    <div class="pub-venue"><span class="pub-badge arxiv">Arxiv 2025</span> <span class="pub-badge new-paper">New</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/videochat_m1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-M1"></div>
-  <div class="pub-info">
-    <div class="pub-title">VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning</div>
-    <div class="pub-authors">Boyu Chen*, Zikang Wang*, <span class="me">Zhengrong Yue</span>*, Kainan Yan*, Chenyun Yu, Yi Huang, Zijun Liu, Yafei Wen, Xiaoxin Chen, Yang Liu, Peng Li, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">CVPR 2026</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/videochat_a1.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VideoChat-A1"></div>
-  <div class="pub-info">
-    <div class="pub-title">VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning</div>
-    <div class="pub-authors">Zikang Wang*, Boyu Chen*, <span class="me">Zhengrong Yue</span>*, Yi Wang, Yu Qiao, Limin Wang, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">AAAI 2026</span> <span class="pub-badge oral">Oral</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/gubs.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="G-UBS"></div>
-  <div class="pub-info">
-    <div class="pub-title">G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</div>
-    <div class="pub-authors">Boyu Chen*, Siran Chen*, <span class="me">Zhengrong Yue</span>*, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">AAAI 2026</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/vtts.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="VTTS"></div>
-  <div class="pub-info">
-    <div class="pub-title">VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception</div>
-    <div class="pub-authors">Ziang Yan*, Yinan He*, Xinhao Li*, <span class="me">Zhengrong Yue</span>*, Xiangyu Zeng, Yali Wang, Yu Qiao, Limin Wang, Yi Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">NeurIPS 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/lvagent.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="LVAgent"></div>
-  <div class="pub-info">
-    <div class="pub-title">LVAgent: Dynamic Round-by-round MLLM Agent Collaboration for Long Video Understanding</div>
-    <div class="pub-authors">Boyu Chen*, <span class="me">Zhengrong Yue</span>*, Siran Chen*, Zikang Wang, Yang Liu, Peng Li, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">ICCV 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/vstylist.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="V-Stylist"></div>
-  <div class="pub-info">
-    <div class="pub-title">V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents</div>
-    <div class="pub-authors"><span class="me">Zhengrong Yue</span>, Shaobin Zhuang, Kunchang Li, Yanbo Ding, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">CVPR 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/timesuite.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="TimeSuite"></div>
-  <div class="pub-info">
-    <div class="pub-title">TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning</div>
-    <div class="pub-authors">Xiangyu Zeng, Kunchang Li, Chenting Wang, Xinhao Li, Tianxiang Jiang, Ziang Yan, Songze Li, Yansong Shi, <span class="me">Zhengrong Yue</span>, Yi Wang, Yali Wang, Yu Qiao, Limin Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">ICLR 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<div class="pub-card fade-in">
-  <div class="pub-thumb"><img src="images/muses.png" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=pub-thumb-placeholder>📄</span>';" alt="Muses"></div>
-  <div class="pub-info">
-    <div class="pub-title">Muses: 3D-Controllable Image Generation via Multi-Modal Agent Collaboration</div>
-    <div class="pub-authors">Yanbo Ding, Shaobin Zhuang, Kunchang Li, <span class="me">Zhengrong Yue</span>, Yu Qiao, Yali Wang</div>
-    <div class="pub-venue"><span class="pub-badge conf">AAAI 2025</span></div>
-    <div class="pub-links"><a href="#" class="pub-link-btn">📄 Paper</a> <a href="#" class="pub-link-btn">💻 Code</a></div>
-  </div>
-</div>
-
-<h2 class="section-heading fade-in"><span class="icon">🤵🏻</span> Internships</h2>
-
-<div class="fade-in">
-
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/meituan.png" alt="MeiTuan"></div>
-  <div class="intern-content">
-    <div class="intern-header">Meituan — BeiDou Research Intern (LongCat M17)</div>
-    <div class="intern-meta">June 2026 – Present</div>
-    <div class="intern-desc">Unified MLLM; World Model.</div>
-  </div>
-</div>
-
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/alibaba.png" alt="Alibaba"></div>
-  <div class="intern-content">
-    <div class="intern-header">Alibaba — T-Star Research Intern (Taotian Group)</div>
-    <div class="intern-meta">Jan 2026 – June 2026</div>
-    <div class="intern-desc">Representation Tokenizer; Unified Reward Model for Generation and Editing.</div>
-  </div>
-</div>
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/huawei.png" alt="Huawei"></div>
-  <div class="intern-content">
-    <div class="intern-header">Huawei — Research Intern (Noah's Ark Lab)</div>
-    <div class="intern-meta">July 2025 – Dec 2025</div>
-    <div class="intern-desc">Image Editing Model Based on Text-Image Interwoven Thought Chains; Unified Multimodal Model.</div>
-  </div>
-</div>
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/opengvlab.png" alt="Shanghai AI Lab"></div>
-  <div class="intern-content">
-    <div class="intern-header">Shanghai AI Lab — Research Intern (OpenGVLab)</div>
-    <div class="intern-meta">July 2024 – June 2025</div>
-    <div class="intern-desc">Unified Tokenizer; Video Understanding and Generation tasks within multimodal frameworks.</div>
-  </div>
-</div>
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/siat.png" alt="SIAT"></div>
-  <div class="intern-content">
-    <div class="intern-header">SIAT — Research Intern (Multimedia Lab)</div>
-    <div class="intern-meta">Nov 2023 – June 2024</div>
-    <div class="intern-desc">Explored video style editing based on MLLM Agents.</div>
-  </div>
-</div>
-<div class="intern-item">
-  <div class="intern-logo"><img src="images/samsung.png" alt="Samsung"></div>
-  <div class="intern-content">
-    <div class="intern-header">Samsung — Research Intern (LUL Lab)</div>
-    <div class="intern-meta">Sept 2023 – Nov 2023</div>
-    <div class="intern-desc">Multilingual document question-answering large model for Galaxy Z-Fold based on RAG.</div>
-  </div>
-</div>
-</div>
-
-<h2 class="section-heading fade-in"><span class="icon">🏅</span> Honors & Awards</h2>
-<ul class="award-list fade-in">
-  <li><span class="award-year">2024</span> <strong>Outstanding Graduate</strong> of Beijing</li>
-  <li><span class="award-year">2023</span> <strong>National Scholarship</strong> (Top 1%)</li>
-  <li><span class="award-year">2023</span> <strong>Beijing Municipal Triple-Excellent Student</strong></li>
-  <li><span class="award-year">2022</span> <strong>1st Prize</strong>, National Robot and Artificial Intelligence Competition</li>
-  <li><span class="award-year">2022</span> <strong>1st Prize</strong>, National University Student Intelligent Vehicle Competition</li>
+:root{--serif:Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif;--ink:#272d34;--muted:#677078;--accent:#8e433d;--line:#e9e5df}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;color:var(--ink);background:#fff;font:18px/1.7 var(--serif);-webkit-font-smoothing:antialiased}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:5px}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:var(--serif)}.nav-wrap{position:sticky;top:0;background:#fffffff5;border-bottom:1px solid var(--line);z-index:5}.nav{max-width:1120px;margin:auto;padding:19px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px}.wordmark{color:var(--ink);font-size:20px;font-weight:700}nav{display:flex;gap:24px;font-size:15px}nav a{color:#62696e}main{max-width:1120px;margin:auto;padding:0 40px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:64px;align-items:center;padding:57px 0 24px}.eyebrow{font-size:13px;letter-spacing:1.4px;color:var(--muted);margin:0 0 17px;text-transform:uppercase}h1{font-size:64px;line-height:1.08;letter-spacing:-2.1px;margin-bottom:20px;font-weight:700}.affiliation{font-size:21px;line-height:1.5;color:#505965;margin-bottom:18px}.portrait{width:210px;height:235px;object-fit:cover;border-radius:7px}.contacts{display:flex;flex-wrap:wrap;gap:22px;font-size:16px}.intro{max-width:890px;padding:0 0 35px!important}.intro p{margin-bottom:14px}.research{margin-top:22px}.research p{font-size:25px;line-height:1.48;color:#505965;margin-bottom:0}.research strong{font-weight:400;color:var(--ink)}.section{border-top:1px solid var(--line);padding:32px 0 40px}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:20px}h2{font-size:34px;line-height:1.2;font-weight:700;letter-spacing:-.5px;margin-bottom:0}.section-note{font-size:14px;color:var(--muted);margin:0}.year-heading{font-size:17px;font-weight:400;color:#91918c;letter-spacing:2px;margin:26px 0 6px}.publication{display:grid;grid-template-columns:280px minmax(0,1fr);gap:32px;align-items:center;padding:27px 0;border-bottom:1px solid var(--line)}.publication:last-child{border-bottom:0}.figure-button{width:280px;border:0;background:#faf9f7;padding:10px;border-radius:6px;cursor:zoom-in;position:relative;overflow:hidden}.publication img{display:block;width:260px;height:158px;object-fit:contain;background:#fff;border-radius:2px}.figure-hint{position:absolute;right:8px;bottom:6px;font:11px var(--serif);color:#737775;background:#fffffff0;padding:1px 5px;opacity:0}.figure-button:hover .figure-hint,.figure-button:focus-visible .figure-hint{opacity:1}.publication h3{font-size:21px;font-weight:700;line-height:1.32;margin:5px 0 10px}.venue{font-size:13px;letter-spacing:.5px;color:var(--accent);margin:0}.authors{font-size:15px;line-height:1.55;color:var(--muted);margin:0 0 10px}.authors strong{color:var(--ink);font-weight:700}.paper-links{font-size:14px;display:flex;gap:14px}.entry{display:grid;grid-template-columns:130px minmax(0,1fr);gap:30px;margin-bottom:25px}.entry:last-child{margin-bottom:0}.entry h3{font-size:21px;margin-bottom:2px}.entry p{font-size:17px;margin-bottom:2px}.entry .date{font-size:15px;color:var(--muted);padding-top:4px}.muted{color:var(--muted)}.compact{list-style:none;padding:0;margin:0}.compact li{display:flex;justify-content:space-between;gap:24px;padding:9px 0;font-size:17px}.compact time{white-space:nowrap;font-size:14px;color:var(--muted)}.services p{margin-bottom:12px;font-size:17px}footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding:24px 0 40px;font-size:14px;color:var(--muted)}.skip{position:absolute;top:-100px;left:15px;padding:8px;background:white;z-index:10}.skip:focus{top:10px}dialog{max-width:min(1100px,94vw);max-height:92vh;border:0;border-radius:6px;padding:24px;box-shadow:0 20px 90px #0003}dialog::backdrop{background:#172431b3}dialog img{display:block;max-width:100%;max-height:72vh;object-fit:contain;margin:auto}dialog p{font-size:15px;margin:16px 0 0}.close-viewer{display:block;margin:0 0 18px auto;background:white;border:1px solid #ccd4dc;padding:8px 14px;cursor:pointer;font:15px var(--serif)}body:has(dialog[open]){overflow:hidden}@media(max-width:760px){body{font-size:17px}.nav{padding:14px 22px;flex-direction:column;align-items:flex-start;gap:6px}nav{font-size:14px;gap:17px;flex-wrap:wrap}main{padding:0 22px}.hero{grid-template-columns:minmax(0,1fr) 105px;gap:20px;padding:30px 0 24px;align-items:start}h1{font-size:43px;letter-spacing:-1.3px;overflow-wrap:normal}.eyebrow{font-size:10px;letter-spacing:1px;line-height:1.7}.affiliation{font-size:17px}.portrait{width:105px;height:135px}.contacts{gap:10px 17px;font-size:15px}.research p{font-size:22px}.publication{grid-template-columns:1fr;gap:17px;padding:26px 0}.figure-button{width:100%;padding:15px}.publication img{width:100%;height:180px}.publication h3{font-size:22px}.authors{font-size:15px}.section-head{display:block}.section-note{margin-top:8px}h2{font-size:30px}.entry{grid-template-columns:85px minmax(0,1fr);gap:18px}.entry h3{font-size:20px}.compact li{font-size:16px}.intro{padding-bottom:30px!important}}@media(max-width:390px){h1{font-size:37px}.hero{gap:14px;grid-template-columns:minmax(0,1fr) 85px}.portrait{width:85px;height:115px}nav{gap:12px;font-size:13px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.nav-wrap{position:static}nav,.skip{display:none}.hero{padding-top:20px}.publication,.entry{break-inside:avoid}a{color:inherit}}
+</style><style>.research{margin-top:23px}.research-directions{display:flex;flex-wrap:wrap;gap:12px 25px;list-style:none;padding:0;margin:0 0 22px}.research-directions li{display:flex;align-items:baseline;gap:9px;font-size:19px;line-height:1.5}.research-directions li>span:first-child{font-size:17px}.research .opportunity-note{border-left:2px solid #b7806e;padding:12px 17px;background:#fcfaf7;border-radius:0 4px 4px 0;font-size:17px;line-height:1.65;color:#505965;margin:0}.research .opportunity-note strong{font-weight:700}.opportunity-note a{text-decoration:underline;text-underline-offset:3px}@media(max-width:760px){.research-directions{display:grid;gap:11px}.research-directions li{font-size:18px}.research .opportunity-note{font-size:16px;padding:12px 15px}}</style></head>
+<body><a class="skip" href="#about">Skip to content</a>
+<header class="nav-wrap"><div class="nav"><a class="wordmark" href="#about">Zhengrong Yue</a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#service">Service</a></nav></div></header>
+<main id="about"><div class="hero"><div><p class="eyebrow">Multimodal intelligence · Agents · Embodied AI</p><h1>Zhengrong Yue</h1><p class="affiliation">PhD Student<br/>Shanghai Jiao Tong University &amp; Shanghai AI Lab</p><div class="contacts"><a href="mailto:amo_yuezr@sjtu.edu.cn">Email</a><a href="https://scholar.google.com/citations?user=l2WXe8cAAAAJ" rel="noopener noreferrer" target="_blank">Google Scholar ↗</a><a href="https://github.com/ZhengrongYue" rel="noopener noreferrer" target="_blank">GitHub ↗</a><a href="https://openreview.net/profile?id=~Zhengrong_Yue2" rel="noopener noreferrer" target="_blank">OpenReview ↗</a></div></div><img alt="Zhengrong Yue" class="portrait" height="220" src="{{ '/images/profile_new.png' | relative_url }}" width="180"/></div>
+<section aria-label="Biography and research" class="intro" id="research" style="padding-bottom:42px"><p>I am a PhD student at Shanghai Jiao Tong University and Shanghai AI Lab, advised by <a href="https://scholar.google.com/citations?user=hD948dkAAAAJ" rel="noopener noreferrer" target="_blank">Prof. Yali Wang</a>. I received my bachelor’s degree in Computer Science and Technology from China University of Mining &amp; Technology (Beijing) in 2024.</p><p>I am currently a research intern with <strong>Meituan LongCat M17</strong> through the BeiDou Talent Plan. Previously, I worked with Alibaba, Huawei Noah’s Ark Lab, Shanghai AI Lab, SIAT, and Samsung.</p><div class="research"><ul aria-label="Research interests" class="research-directions">
+<li><span aria-hidden="true">🔗</span><span>Unified Multimodal Understanding &amp; Generation</span></li>
+<li><span aria-hidden="true">🤖</span><span>LLM Agents</span></li>
+<li><span aria-hidden="true">🌍</span><span>Embodied AI &amp; World Models</span></li>
 </ul>
-
-<h2 class="section-heading fade-in"><span class="icon">🤝</span> Academic Services</h2>
-<ul class="service-list fade-in">
-  <li>📋 <strong>Conference Reviewer:</strong> CVPR 2026, ECCV 2026</li>
-  <li>📰 <strong>Journal Reviewer:</strong> IEEE TPAMI</li>
-</ul>
-
-<script>
-function toggleTheme(){var h=document.documentElement,b=document.getElementById('themeToggle');if(h.getAttribute('data-theme')==='dark'){h.removeAttribute('data-theme');b.textContent='🌙';localStorage.setItem('theme','light');}else{h.setAttribute('data-theme','dark');b.textContent='☀️';localStorage.setItem('theme','dark');}}
-(function(){var s=localStorage.getItem('theme');if(s==='dark'){document.documentElement.setAttribute('data-theme','dark');setTimeout(function(){var b=document.getElementById('themeToggle');if(b)b.textContent='☀️';},0);}})();
-document.addEventListener('DOMContentLoaded',function(){var els=document.querySelectorAll('.fade-in');if('IntersectionObserver' in window){var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});els.forEach(function(el){obs.observe(el);});}else{els.forEach(function(el){el.classList.add('visible');});}});
-</script>
+<p class="opportunity-note"><span aria-hidden="true">🔥</span> I expect to graduate in <strong>2029</strong> and am actively seeking internship opportunities in unified multimodal understanding and generation, LLM agents, and embodied AI / world models. Please <a href="mailto:amo_yuezr@sjtu.edu.cn">email me</a> to discuss internships or potential research collaborations.</p></div></section>
+<section class="section" id="publications"><div class="section-head"><h2>Publications</h2><p class="section-note">* Equal contribution · Full publication list</p></div><h3 class="year-heading">2026</h3><article class="publication"><button aria-label="Enlarge figure: AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design" class="figure-button" type="button"><img alt="AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design — research figure" height="125" loading="lazy" src="{{ '/images/autodesign.webp' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">Preprint 2026</p><h3>AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design</h3><p class="authors">Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan, Haodong Li, <strong>Zhengrong Yue</strong>, Jing Li, Xiaofu Chen, Xiaohan Zhao, Jiacheng Liu, Jiacheng Cui, Zhiqiang Shen, Xiaotong Li</p><div class="paper-links"><a href="https://arxiv.org/abs/2608.13560" rel="noopener noreferrer" target="_blank">Paper ↗</a> <a href="https://github.com/Yaxin9Luo/AutoDesign" rel="noopener noreferrer" target="_blank">Code ↗</a> </div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System" class="figure-button" type="button"><img alt="VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System — research figure" height="125" loading="lazy" src="{{ '/images/videococo.webp' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">Preprint 2026</p><h3>VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System</h3><p class="authors">Haodong Li, Tianfei Ren, ..., <strong>Zhengrong Yue</strong>, Yaxin Luo, Xiaotong Li et al.</p><div class="paper-links"><a href="https://arxiv.org/abs/2607.27380" rel="noopener noreferrer" target="_blank">Paper ↗</a> <a href="https://github.com/micky-li-hd/VideoCoCo" rel="noopener noreferrer" target="_blank">Code ↗</a> </div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion" class="figure-button" type="button"><img alt="What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion — research figure" height="125" loading="lazy" src="{{ '/images/pae.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">NeurIPS 2026</p><h3>What Matters for Diffusion-Friendly Latent Manifold? Prior-Aligned Autoencoders for Latent Diffusion</h3><p class="authors"><strong>Zhengrong Yue</strong>, Taihang Hu, Mengting Chen, Haiyu Zhang, Zihao Pan, Tao Liu, Zikang Wang, Jinsong Lan, Xiaoyong Zhu, Bo Zheng, Yali Wang.</p><div class="paper-links"><a href="https://arxiv.org/abs/2605.07915" rel="noopener noreferrer" target="_blank">Paper ↗</a> · <a href="https://github.com/ZhengrongYue/PAE" rel="noopener noreferrer" target="_blank">Code ↗</a> · <a href="https://zhengrongyue.github.io/pae.github.io/" rel="noopener noreferrer" target="_blank">Project ↗</a></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: Continuous-Time Distribution Matching for Few-Step Diffusion Distillation" class="figure-button" type="button"><img alt="Continuous-Time Distribution Matching for Few-Step Diffusion Distillation — research figure" height="125" loading="lazy" src="{{ '/images/cdm.webp' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">NeurIPS 2026</p><h3>Continuous-Time Distribution Matching for Few-Step Diffusion Distillation</h3><p class="authors">Tao Liu, Hao Yan, Mengting Chen, Taihang Hu, <strong>Zhengrong Yue</strong>, Zihao Pan, Jinsong Lan, Xiaoyong Zhu, Ming-Ming Cheng, Bo Zheng, Yaxing Wang.</p><div class="paper-links"><a href="https://arxiv.org/abs/2605.06376" rel="noopener noreferrer" target="_blank">Paper ↗</a> <a href="https://github.com/byliutao/cdm" rel="noopener noreferrer" target="_blank">Code ↗</a> </div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing" class="figure-button" type="button"><img alt="Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing — research figure" height="125" loading="lazy" src="{{ '/images/beyond_cot.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">ECCV 2026</p><h3>Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing</h3><p class="authors">Zhentao Zou*, <strong>Zhengrong Yue</strong>*, Kunpeng Du, Binlei Bao, Hanting Li, Haizhen Xie, Guozheng Xu, Yue Zhou, Yali Wang, Jie Hu, Xue Jiang, Xinghao Chen.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning" class="figure-button" type="button"><img alt="VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning — research figure" height="125" loading="lazy" src="{{ '/images/videochat_m1.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">CVPR 2026</p><h3>VideoChat-M1: Collaborative Policy Planning for Video Understanding via Multi-Agent Reinforcement Learning</h3><p class="authors">Boyu Chen*, Zikang Wang*, <strong>Zhengrong Yue</strong>*, Kainan Yan*, Chenyun Yu, Yi Huang, Zijun Liu, Yafei Wen, Xiaoxin Chen, Yang Liu, Peng Li, Yali Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation" class="figure-button" type="button"><img alt="UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation — research figure" height="125" loading="lazy" src="{{ '/images/uniflow.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">ICLR 2026</p><h3>UniFlow: A Unified Pixel Flow Tokenizer for Visual Understanding and Generation</h3><p class="authors"><strong>Zhengrong Yue</strong>, Haiyu Zhang, Xiangyu Zeng, Boyu Chen, Chenting Wang, Shaobin Zhuang, Lu Dong, Kunpeng Du, Yi Wang, Limin Wang, Yali Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning" class="figure-button" type="button"><img alt="VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning — research figure" height="125" loading="lazy" src="{{ '/images/videochat_a1.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">AAAI 2026 (Oral)</p><h3>VideoChat-A1: Thinking with Long Videos by Chain-of-Shot Reasoning</h3><p class="authors">Zikang Wang*, Boyu Chen*, <strong>Zhengrong Yue</strong>*, Yi Wang, Yu Qiao, Limin Wang, Yali Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation" class="figure-button" type="button"><img alt="G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation — research figure" height="125" loading="lazy" src="{{ '/images/gubs.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">AAAI 2026</p><h3>G-UBS: Towards Robust Understanding of Implicit Feedback via Group-Aware User Behavior Simulation</h3><p class="authors">Boyu Chen*, Siran Chen*, <strong>Zhengrong Yue</strong>*, Kainan Yan, Chenyun Yu, Beibei Kong, Cheng lei, Chengxiang Zhuo, Zang Li, Yali Wang.</p><div class="paper-links"></div></div></article>
+<h3 class="year-heading">2025</h3><article class="publication"><button aria-label="Enlarge figure: VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception" class="figure-button" type="button"><img alt="VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception — research figure" height="125" loading="lazy" src="{{ '/images/vtts.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">NeurIPS 2025</p><h3>VTTS: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception</h3><p class="authors">Ziang Yan*, Yinan He*, Xinhao Li*, <strong>Zhengrong Yue</strong>*, Xiangyu Zeng, Yali Wang, Yu Qiao, Limin Wang, Yi Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: LVAgent: Dynamic Round-by-round MLLM Agent Collaboration for Long Video Understanding" class="figure-button" type="button"><img alt="LVAgent: Dynamic Round-by-round MLLM Agent Collaboration for Long Video Understanding — research figure" height="125" loading="lazy" src="{{ '/images/lvagent.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">ICCV 2025</p><h3>LVAgent: Dynamic Round-by-round MLLM Agent Collaboration for Long Video Understanding</h3><p class="authors">Boyu Chen*, <strong>Zhengrong Yue</strong>*, Siran Chen*, Zikang Wang, Yang Liu, Peng Li, Yali Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents" class="figure-button" type="button"><img alt="V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents — research figure" height="125" loading="lazy" src="{{ '/images/vstylist.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">CVPR 2025</p><h3>V-Stylist: Video Stylization via Collaboration and Reflection of MLLM Agents</h3><p class="authors"><strong>Zhengrong Yue</strong>, Shaobin Zhuang, Kunchang Li, Yanbo Ding, Yali Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning" class="figure-button" type="button"><img alt="TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning — research figure" height="125" loading="lazy" src="{{ '/images/timesuite.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">ICLR 2025</p><h3>TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning</h3><p class="authors">Xiangyu Zeng, Kunchang Li, Chenting Wang, Xinhao Li, Tianxiang Jiang, Ziang Yan, Songze Li, Yansong Shi, <strong>Zhengrong Yue</strong>, Yi Wang, Yali Wang, Yu Qiao, Limin Wang.</p><div class="paper-links"></div></div></article>
+<article class="publication"><button aria-label="Enlarge figure: Muses: 3D-Controllable Image Generation via Multi-Modal Agent Collaboration" class="figure-button" type="button"><img alt="Muses: 3D-Controllable Image Generation via Multi-Modal Agent Collaboration — research figure" height="125" loading="lazy" src="{{ '/images/muses.png' | relative_url }}" width="190"/><span class="figure-hint">View figure</span></button><div><p class="venue">AAAI 2025</p><h3>Muses: 3D-Controllable Image Generation via Multi-Modal Agent Collaboration</h3><p class="authors">Yanbo Ding, Shaobin Zhuang, Kunchang Li, <strong>Zhengrong Yue</strong>, Yu Qiao, Yali Wang.</p><div class="paper-links"></div></div></article></section>
+<section class="section" id="experience"><div class="section-head"><h2>Research experience</h2><p class="section-note">Dates indicate the start of each internship.</p></div><div class="entry"><p class="date">Jun 2026</p><div><h3>Meituan</h3><p>BeiDou Talent Plan · LongCat M17 · Research Intern</p><p class="muted">Unified MLLMs; coding agents for multimodal tasks; world action models.</p></div></div><div class="entry"><p class="date">Dec 2025</p><div><h3>Alibaba</h3><p>T-Star Talent Plan · Taotian · Research Intern</p><p class="muted">Representation tokenizers for latent diffusion; unified reward models for generation and editing.</p></div></div><div class="entry"><p class="date">Jul 2025</p><div><h3>Huawei</h3><p>Noah’s Ark Lab · Research Intern</p><p class="muted">Text–image interwoven reasoning for image editing; unified multimodal models.</p></div></div><div class="entry"><p class="date">Jul 2024</p><div><h3>Shanghai AI Lab</h3><p>OpenGVLab · Research Intern</p><p class="muted">Unified tokenizers; multimodal video understanding and generation.</p></div></div><div class="entry"><p class="date">Nov 2023</p><div><h3>SIAT</h3><p>Multimedia Lab · Research Intern</p><p class="muted">Video style editing with MLLM agents.</p></div></div><div class="entry"><p class="date">Sep 2023</p><div><h3>Samsung</h3><p>Language Understanding Lab · Research Intern</p><p class="muted">Multilingual document question answering with RAG for Galaxy Z Fold.</p></div></div></section>
+<section class="section" id="education"><div class="section-head"><h2>Education</h2></div><div class="entry"><p class="date">2024 – Present</p><div><h3>Shanghai Jiao Tong University &amp; Shanghai AI Lab</h3><p>PhD · Advised by Prof. Yali Wang</p></div></div><div class="entry"><p class="date">2020 – 2024</p><div><h3>China University of Mining &amp; Technology (Beijing)</h3><p>Bachelor of Computer Science and Technology</p><p class="muted">GPA 3.9/4.0 · Outstanding Graduate of Beijing</p></div></div></section>
+<section class="section" id="honors"><div class="section-head"><h2>Honors &amp; awards</h2></div><ul class="compact"><li><span>Outstanding Graduate of Beijing</span><time>Jun 2024</time></li><li><span>Beijing Municipal Triple-Excellent Student</span><time>Dec 2023</time></li><li><span>National Scholarship · Top 1%</span><time>Oct 2023</time></li><li><span>1st Prize · National University Student Intelligent Vehicle Competition</span><time>Sep 2022</time></li><li><span>1st Prize · National Robot and Artificial Intelligence Competition</span><time>Aug 2022</time></li></ul></section>
+<section class="section services" id="service"><div class="section-head"><h2>Academic service</h2></div><p><strong>Conference reviewer</strong><br/>CVPR 2026 · ECCV 2026 · ICML 2026 · NeurIPS 2026 · ICLR 2027</p><p><strong>Journal reviewer</strong><br/>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</p></section>
+<footer><span>© Zhengrong Yue · Shanghai</span><a href="#about">Back to top ↑</a></footer></main><dialog id="figure-viewer"><button aria-label="Close enlarged figure" class="close-viewer">Close ×</button><img alt=""/><p></p></dialog><script>const viewer=document.getElementById('figure-viewer');document.querySelectorAll('.figure-button').forEach(button=>button.addEventListener('click',()=>{const img=button.querySelector('img');viewer.querySelector('img').src=img.src;viewer.querySelector('img').alt=img.alt;viewer.querySelector('p').textContent=img.alt;viewer.showModal();}));viewer.querySelector('button').addEventListener('click',()=>viewer.close());viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close();});</script></body></html>
