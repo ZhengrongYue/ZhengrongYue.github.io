@@ -74,6 +74,20 @@ redirect_from:
 <footer style="flex-wrap:wrap;align-items:center;gap:10px 24px"><span>© Zhengrong Yue · Shanghai</span><span id="busuanzi_container_site_pv" style="display:none" title="Page views · Powered by Busuanzi">Total views · <span id="busuanzi_value_site_pv" style="font-variant-numeric:tabular-nums"></span></span><a href="#about">Back to top ↑</a></footer></main><dialog id="figure-viewer"><button aria-label="Close enlarged figure" class="close-viewer">Close ×</button><img alt=""/><p></p></dialog><script>const viewer=document.getElementById('figure-viewer');document.querySelectorAll('.figure-button').forEach(button=>button.addEventListener('click',()=>{const img=button.querySelector('img');viewer.querySelector('img').src=img.src;viewer.querySelector('img').alt=img.alt;viewer.querySelector('p').textContent=img.alt;viewer.showModal();}));viewer.querySelector('button').addEventListener('click',()=>viewer.close());viewer.addEventListener('click',e=>{if(e.target===viewer)viewer.close();});</script><script>
 // Count production visits only; local previews must not contaminate statistics.
 if (location.hostname === 'zhengrongyue.github.io') {
+  // A display baseline avoids synthetic traffic against the counting service.
+  // Raw site_pv was 48 when this baseline was configured on 2026-09-30.
+  const rawAtBaseline = 48;
+  const displayBaseline = 3000;
+  const countValue = document.getElementById('busuanzi_value_site_pv');
+  document.getElementById('busuanzi_container_site_pv').title =
+    'Displayed from a 3,000-view baseline; subsequent views tracked by Busuanzi';
+  const countObserver = new MutationObserver(() => {
+    const raw = Number(countValue.textContent.trim());
+    if (!Number.isFinite(raw) || !countValue.textContent.trim()) return;
+    countObserver.disconnect();
+    countValue.textContent = Math.max(displayBaseline, displayBaseline + raw - rawAtBaseline).toLocaleString('en-US');
+  });
+  countObserver.observe(countValue, { childList: true, characterData: true, subtree: true });
   const counter = document.createElement('script');
   counter.async = true;
   counter.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
